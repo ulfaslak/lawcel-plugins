@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lawcel",
+  "description": "Lawcel plugins for Claude Code. Connect a codebase to Lawcel's compliance platform so an agent can answer legal-profile questions from the code it is already reading.",
+  "owner": {
+    "name": "Lawcel",
+    "email": "support@lawcel.com"
+  },
+  "plugins": [
+    {
+      "name": "lawcel",
+      "displayName": "Lawcel",
+      "source": "./plugins/lawcel",
+      "description": "Connect Claude Code to Lawcel. Adds the hosted Lawcel MCP server (browser sign-in, no API key) and a skill that gets the agent to answer your open legal-profile questions from evidence in the codebase.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Lawcel",
+        "email": "support@lawcel.com"
+      },
+      "homepage": "https://app.lawcel.com/connections/mcp",
+      "repository": "https://github.com/ulfaslak/lawcel-plugins",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["compliance", "legal", "privacy", "gdpr", "mcp"],
+      "tags": ["compliance", "legal", "privacy", "gdpr", "mcp"]
+    }
+  ]
+}
